@@ -1,0 +1,16 @@
+advanced:
+  log_level: debug
+devices:
+  '0x00158d000yyyyyyy':
+    friendly_name: lock_s2
+    retain: false
+homeassistant: false
+mqtt:
+  base_topic: zigbee2mqtt
+  password: xxxxxxxxxxxxx
+  server: mqtt://xxx.xxx.xxx.xxx
+  user: xxxxxxxxx
+permit_join: true
+serial:
+  disable_led: true
+  port: /dev/ttyACM0
